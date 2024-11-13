@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  
+  .main {
+    background-color: rgba(0, 0, 139, 0.5); /* Dark blue transparent */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 auto; /* Center the form on the page */
+    max-width: 400px; /* Adjust for smaller screens */
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    background-color: rgba(0, 0, 139, 0.3); /* Dark blue transparent for inputs */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+  }
+  
+  button {
+    background-color: #00008b; /* Blue */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn-dark {
+    background-color: #222; /* Darker blue */
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .main {
+      padding: 20px;
+    }
+  
+    .card-title {
+      font-size: 20px;
+    }
+  }
+  body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  
+  .main {
+    background-color: rgba(0, 0, 139, 0.5); /* Dark blue transparent */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 auto; /* Center the form on the page */
+    max-width: 400px; /* Adjust for smaller screens */
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    background-color: rgba(0, 0, 139, 0.3); /* Dark blue transparent for inputs */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+  }
+  
+  button {
+    background-color: #00008b; /* Blue */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn-dark {
+    background-color: #222; /* Darker blue */
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .main {
+      padding: 20px;
+    }
+  
+    .card-title {
+      font-size: 20px;
+    }
+  }
+    

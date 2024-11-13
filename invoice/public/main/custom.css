@@ -1,0 +1,670 @@
+/* Enhanced styling for a professional and modern look */
+body {
+    font-family: 'Lato', sans-serif; /* Use a modern, professional font */
+    font-weight: 400;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #000000;
+  }
+  
+  header {
+    background-color: blue; /* Darker background for contrast */
+    padding:  0; /* Increase padding for visual appeal */
+    
+  }
+  
+  .navbar {
+    background-color: rgb(20, 18, 18); /* Slightly darker blue for depth */
+    border-bottom: 1px solid #000000; /* Add subtle border for definition */
+    padding: 1.5rem 0; /* Adjust padding for better spacing */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .turbo-text {
+    color: #007bff; /* Blue color for "TURBO" */
+    font-size: 1.2rem;
+    margin-right: 5px;
+  }
+  
+  .tech-motor-text {
+    color: #b2c1f1;
+    font-size: 1rem;
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: 600; /* Bolder links for readability */
+    color: #fff;
+    padding: 10px 15px; /* Adjust spacing for better touch interactions */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #afec1e; /* Blue hover color */
+    background-color: #440aca; /* Add subtle hover effect */
+  }
+  
+  .login-btn {
+    background-color: #2e07f0; /* Distinctive button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+  }
+  
+  .login-btn:hover {
+    background-color: #453333; /* Darker button on hover */
+  }
+  
+  /*** Carousel Start ***/
+
+.carousel-item {
+    /* background-position: 100%;*/
+     position: relative;
+     height: 100vh;
+     
+   }
+   
+   .carousel-item::after {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     right: 0;
+     background: rgba(0, 0, 0, .7);
+   }
+   
+   .carousel-caption {
+     height: 100%;
+     display: flex;
+     align-items: center;
+     text-align: start;
+     z-index: 1;
+   }
+   
+   .container carousel-content{
+     border-left: 10px;
+   }
+   
+   .carousel-control-prev {
+     width: 40px;
+     height: 60px;
+     position: absolute;
+     top: 50%;
+     left: 0;
+     /*background: var(--bs-primary);*/
+     border-radius: 0 0 0 0;
+     transition: .5s;
+     opacity: 1;
+   }
+   
+   
+   .carousel-control-next {
+     width: 40px;
+     height: 60px;
+     position: absolute;
+     top: 50%;
+     right: 0;
+     /*background: var(--bs-primary);*/
+     border-radius: 0 0 0 0;
+     transition: .5s;
+     opacity: 1;
+   }
+   
+   #carouselId .carousel-indicators li,
+   #carouselId .carousel-indicators li,
+   #carouselId .carousel-indicators li {
+     width: 10px;
+     height: 10px;
+     background: var(--bs-dark);
+     border: 2px solid var(--bs-primary);
+     border-radius: 10px;
+     margin: 0 10px 30px 10px;
+   }
+   
+   #carouselId .carousel-indicators li.active {
+     background: var(--bs-primary) !important;
+   }
+   
+   @media (max-width: 768px) {
+     .carousel-item {
+         width: 100%;
+         height: 400px;
+     }
+   
+     .carousel-item img {
+         height: 400px;
+     }
+   
+     .carousel-control-prev,
+     .carousel-control-next {
+         display: none;
+     }
+     
+   }
+   
+   /*** Carousel End ***/
+
+    /*** appoinment ***/
+.container.appointment-form {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    height: 40px;
+    border-radius: 5px;
+    color: #050000;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.invalid-feedback {
+    display: block;
+    font-size: 0.875rem;
+    color: #dc3545;
+}
+h1 {
+  color: #fff; /* Set h1 text color to white */
+}
+
+label {
+  color: #fff; /* Set label text color to white */
+}
+
+ /*** appoinment End ***/
+  /*** About start ***/
+ {
+    box-sizing: border-box;
+}
+  
+a {
+text-decoration: none;
+color: inherit;
+}
+
+a:hover {
+text-decoration: underline; 
+color:#004c63; 
+}
+  
+.Container {
+    position: relative;
+    /*text-align: center;*/
+    color: White;
+    font-size: 250%;
+    /*background-image: url("about5.png");*/
+    opacity: 100%;
+}
+  
+.top-left{
+    position: absolute;
+   /* position: fixed;*/
+    top:10%;
+    left: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    opacity: 100%;
+}
+      
+.top-centered{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transform: translate(-40%, -40%);
+    padding: 10px;
+    background-color: #151515;
+    font-size: 60%;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+}
+  
+/* If the screen size is 1200px or less, set the font-size of <div> to 10px */
+@media only screen and (max-width: 1200px) {
+    div.top-left {
+      top:5%;
+      left:7%;
+    }
+}
+  
+/* If the screen size is 992px or less, set the font-size of <div> to 10px */
+@media only screen and (max-width: 992px) {
+    div.top-left {
+      font-size: 33px;
+    }
+}
+  
+/* If the screen size is 992px or less, set the font-size of <div> to 8px */
+@media only screen and (max-width: 992px) {
+    div.top-centered {
+      font-size: 19px;
+    }
+}
+  
+/* If the screen size is 768px or less, set the font-size of <div> to 10px */
+@media only screen and (max-width: 768px) {
+    div.top-left {
+      font-size: 27px;
+    }
+}
+  
+/* If the screen size is 768px or less, set the font-size of <div> to 8px */
+@media only screen and (max-width: 768px) {
+    div.top-centered {
+      font-size: 14px;
+    }
+}
+  
+/* If the screen size is 600px or less, set the font-size of <div> to 18px */
+@media only screen and (max-width: 600px) {
+    div.top-left {
+      font-size: 27px;
+    }
+}
+  
+/* If the screen size is 600px or less, set the font-size of <div> to 10px */
+@media only screen and (max-width: 600px) {
+    div.top-centered {
+      font-size: 11px;
+    }
+}
+  
+.bottom-centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(255, 255, 255);
+    font-size: 80%;
+    opacity: 100%;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+  
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+  
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+  
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+  
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+  
+.topic {
+    background-color: #cc8c33;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 150%;
+}
+  
+.menu ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+  
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #000000;
+    color: #cbad8b;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 
+    0 1px 2px rgba(0,0,0,0.24);
+}
+  
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(250, 240, 134);
+    }
+}
+  
+.aside {
+    background-color: #e7a254;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/*** About End ***/
+
+/* CSS for Contact Page */
+
+/* Section Header */
+.paracontact {
+  text-align: 1px; /* Center align the text */
+  margin-top: 50px; /* Adjust margin as needed */
+}
+
+.paracontact h2 {
+  font-size: 28px; /* Adjust heading font size */
+  color: #807eff; /* Heading color */
+  margin-bottom: 20px; /* Adjust margin between heading and paragraph */
+}
+
+.paracontact p {
+ 
+  font-size: 18px; /* Adjust paragraph font size */
+  color: #807eff; /* Paragraph color */
+  line-height: 1.6; /* Adjust line height for better readability */
+  text-align: 10px; 
+}
+
+
+/* Container */
+
+
+/* Row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Contact Info */
+containercontact{
+  color: #FFF;
+}
+.contact-info {
+  width: 50%;
+  color: #FFF;
+}
+
+.contact-info-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.contact-info-icon {
+  height: 70px;
+  width: 70px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info-icon i {
+  font-size: 30px;
+  line-height: 70px;
+}
+
+.contact-info-content {
+  margin-left: 20px;
+}
+
+.contact-info-content h4 {
+  color: #1da9c0;
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+
+.contact-info-content p {
+  font-size: 1em;
+  color: #ffffff; 
+}
+
+
+
+
+/* Contact Form */
+.contact-form {
+  background-color: #fff;
+  padding: 40px;
+  width: 45%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: #333;
+}
+
+.contact-form h2 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.contact-form .input-box {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contact-form .input-box span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.contact-form .input-box input:focus ~ span,
+.contact-form .input-box textarea:focus ~ span{
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contact-form .input-box input[type="submit"] {
+  width: 100%;
+  background: #00bcd4;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #00bcd4;
+  transition: 0.5s;
+}
+
+.contact-form .input-box input[type="submit"]:hover {
+  background: #FFF;
+  color: #00bcd4;
+}
+
+.section-header {
+  
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Set text color to white for better readability */
+  padding: 100px 0; /* Adjust padding as needed */
+  text-align: center;
+  height: 100vh; /* Set the height of the section to 100% of the viewport height */
+  margin: 0; 
+}
+/* Media Query */
+@media (max-width: 991px) {
+  .contact-info {
+      margin-bottom: 40px;
+      width: 100%;
+  }
+
+  .contact-form {
+      width: 100%;
+  }
+}
+
+
+/*** contact End ***/
+/**service css**/
+.container1{
+  min-height: 10ch;
+  width: 100%;
+  background-color: whitesmoke;
+}
+.service-wrapper{
+  padding: 5% 8%;
+}
+.service{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+}
+
+p{
+  color: rgba(5, 5, 5, 0.966);width: 60%;
+  text-align: center;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+  margin-top: 42px;
+
+}
+.card{
+  height: 300px;
+  width: 350px;
+  background-color: rgb(147, 179, 221);
+  padding: 3% 8%;
+  border-radius: 8px;
+  
+  transition: 0.6s;
+}
+.card h2{
+  color: black;
+  font-size: 150%;
+  margin: 10px 0;
+  font-weight: 500;
+  
+
+}
+.card p{
+  text-align: left;
+  width: 100%;
+  margin: 20px 0;;
+}
+.card :hover{
+  background: linear-gradient(90deg);
+  transform: translateY(-8px);
+  
+}
+
+@media (max-width:900px){
+  .cards{
+      grid-template-columns: repeat(1,1fr);
+  }
+
+
+  .h1{
+      font-size: 2.5rem;
+  }
+}
+@media (max-width:760px){
+  .h1{
+      font-size: 2rem;
+  }
+
+  p{
+   width: 90%;
+   }
+}
+@media(max-width: 500px){
+  .card{
+      height: 280px;
+      width: 320px;
+  }
+  .h1{
+      margin-bottom: 12px;
+      font: 1.5rem;
+  }    
+
+}
+/**service end**/
+
+  
+  footer {
+    background-color: rgb(20, 18, 18);
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-links a {
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-links a:hover {
+    color: #007bff; 
+  }
+  
+  
